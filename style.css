@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+.head{
+    background-color: rgb(15, 58, 201);
+    height: 24vmin;
+    width: 25vmin;
+    border-radius: 16vmin 19vmin 17vmin 0vmin;
+    transform: translate(115vmin, 25vmin);
+    z-index: 2;
+    border-width: 0vmin 0vmin 0vmin 0.5vmin;
+    border-style: solid;
+    border-color: #04375c;;
+}
+
+.eye1{
+    height: 6vmin;
+    width: 6vmin;
+    background-image: radial-gradient(white,white,white,black,black, black);
+    border-radius: 6vmin;
+    transform: translate(15vmin, 8vmin);
+}
+
+.pupil{
+    height: 2.5vmin;
+    width: 2.5vmin;
+    background-color: black;
+    transform: translate(2vmin, 2vmin);
+    border-radius: 10vmin;
+}
+
+.glare{
+    height: 1vmin;
+    width: 1vmin;
+    background-color: white;
+    transform: translate(1vmin, 0vmin);
+    border-radius: 8vmin;
+}
+
+.beak{
+    width: 0;
+    height: 0;
+    border-left: 7vmin solid transparent;
+    border-right: 9vmin solid transparent;
+    border-bottom: 16vmin solid #ffa700;
+    border-radius: 3vmin 11vmin 3vmin 3vmin;
+    transform: translate(22vmin, 4vmin) rotate(466deg);
+}
+
+.torso{
+    position: absolute;
+    background-color: rgb(15, 58, 201);
+    height: 40vmin;
+    width: 30vmin;
+    border-radius: 30vmin 24vmin 44vmin 7vmin;
+    transform: translate(103vmin, 19vmin) rotate(25deg);
+    z-index: 2;
+    border-width: 1vmin 1vmin 0vmin 0vmin;
+    border-style: solid;
+    border-color: #04375c;
+}
+
+.w1{
+    background-color: rgb(15 58 201 / 85%);
+    height: 45vmin;
+    width: 20vmin;
+    border-radius: 31vmin 24vmin 44vmin 8vmin;
+    transform: translate(-8vmin, -7vmin) rotate(76deg);
+    animation-name: fly;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes fly{
+    0% {-webkit-transform: translate(-8vmin, -7vmin) rotate(76deg);}
+    50% {-webkit-transform: translate(-8vmin, -7vmin) rotate(85deg);}
+    100% {-webkit-transform: translate(-8vmin, -7vmin) rotate(76deg);}
+}
+
+.w2{
+    background-color: rgb(15 58 201 / 85%);
+    height: 49vmin;
+    width: 20vmin;
+    border-radius: 31vmin 24vmin 44vmin 8vmin;
+    transform: translate(-4vmin, -51vmin) rotate(53deg);
+    animation-name: fly2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fly2{
+    0% {-webkit-transform: translate(-4vmin, -51vmin) rotate(53deg);}
+    50% {-webkit-transform: translate(-4vmin, -51vmin) rotate(62deg);}
+    100% {-webkit-transform: translate(-4vmin, -51vmin) rotate(53deg);}
+}
+
+.l1{
+    position: absolute;
+    background-color: #ffa700;
+    height: 9vmin;
+    width: 1.5vmin;
+    transform: translate(105vmin, 54vmin) rotate(34deg);
+    z-index: 1;
+    border-radius: 2vmin;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0% {-webkit-transform: translate(105vmin, 54vmin) rotate(34deg);}
+    50% {-webkit-transform: translate(105vmin, 54vmin) rotate(40deg);}
+    100% {-webkit-transform: translate(105vmin, 54vmin) rotate(34deg);}
+}
+
+.f1{
+    background-color: #ffa700;
+    height: 4vmin;
+    width: 1vmin;
+    transform: translate(-1vmin, 8vmin) rotate(39deg);
+    z-index: 1;
+    border-radius: 2vmin;
+}
+.f1{
+    background-color: #ffa700;
+    height: 4vmin;
+    width: 1vmin;
+    transform: translate(-1vmin, 8vmin) rotate(39deg);
+    z-index: 1;
+    border-radius: 2vmin;
+}
+.f2{
+    background-color: #ffa700;
+    height: 4vmin;
+    width: 1vmin;
+    transform: translate(0.5vmin, 4vmin) rotate(-15deg);
+    z-index: 1;
+    border-radius: 2vmin;
+}
+.f3{
+    background-color: #ffa700;
+    height: 4vmin;
+    width: 1vmin;
+    transform: translate(2vmin, -1vmin) rotate(127deg);
+    z-index: 1;
+    border-radius: 2vmin;
+}
+
+.l2{
+    position: absolute;
+    background-color: #ffa700;
+    height: 10vmin;
+    width: 1.5vmin;
+    transform: translate(114vmin, 54vmin) rotate(30deg);
+    z-index: 1;
+    border-radius: 2vmin;
+    animation-name: move2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move2{
+    0% {-webkit-transform: translate(114vmin, 54vmin) rotate(30deg);}
+    50% {-webkit-transform: translate(114vmin, 54vmin) rotate(37deg);}
+    100% {-webkit-transform: translate(114vmin, 54vmin) rotate(30deg);}
+}
+
+.f1-2{
+    background-color: #ffa700;
+    height: 4vmin;
+    width: 1vmin;
+    transform: translate(-1vmin, 8vmin) rotate(39deg);
+    z-index: 1;
+    border-radius: 2vmin;
+}
+.f2-2{
+    background-color: #ffa700;
+    height: 4vmin;
+    width: 1vmin;
+    transform: translate(0.5vmin, 4vmin) rotate(-15deg);
+    z-index: 1;
+    border-radius: 2vmin;
+}
+.f3-2{
+    background-color: #ffa700;
+    height: 4vmin;
+    width: 1vmin;
+    transform: translate(2vmin, -1vmin) rotate(127deg);
+    z-index: 1;
+    border-radius: 2vmin;
+}
